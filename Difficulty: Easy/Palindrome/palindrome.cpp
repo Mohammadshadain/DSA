@@ -10,17 +10,16 @@ class Solution {
   public:
     bool isPalindrome(int n) {
         // Code here.
-        int val = n ;
-        int ans = 0;
-        while(val > 0){
-            int lastdigit = val%10;
-            ans = ans*10 + lastdigit;
-            val = val/10;
+        int val=n;
+        int ans=0;
+        while(val>0){
+            int lastdig=val%10;
+            ans=ans*10+lastdig;
+            val=val/10;
         }
-        return ans == n;
+        return ans==n;
     }
 };
-
 
 //{ Driver Code Starts.
 
