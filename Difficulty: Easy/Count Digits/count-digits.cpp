@@ -4,6 +4,7 @@ using namespace std;
 
 
 // } Driver Code Ends
+
 class Solution {
   public:
     // Function to count the number of digits in n that evenly divide n
@@ -23,6 +24,8 @@ class Solution {
         return count;
     }
 };
+
+
 
 //{ Driver Code Starts.
 int main() {
